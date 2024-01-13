@@ -1,3 +1,7 @@
+#
+# QRコードを並べたページを生成
+#
+
 puts <<EOF
 <html>
   <head>
@@ -14,7 +18,7 @@ xsize = 140
   (0...5).each { |x|
     i = y * 5 + x + 1
     puts "  <img src='images/#{i}.png' style='width:#{imagesize}px; height:#{imagesize}px; position:absolute; top:#{y*ysize+30}px; left:#{30+x*xsize}px;'>"
-    puts "  <span style='position:absolute; top:#{y*ysize-20+70}px; left:#{x*xsize+80}px; font-size:10px;'>#{i}</span>"
+    puts "  <span style='position:absolute; top:#{y*ysize+50}px; left:#{x*xsize+ysize+6}px; font-size:10px;'>#{i}</span>"
   }
 }
 

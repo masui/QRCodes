@@ -1,8 +1,6 @@
 #
 # http://masui.org/1 みたいなQRコードを生成
 #
-(0...65).each { |i|
-  j = i+1
-  system "qrencode -o images/#{j}.png http://masui.org/#{j}"
+(1..65).each { |i|
+  system "qrencode -o images/#{i}.png http://masui.org/#{i}"
 }
-
