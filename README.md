@@ -2,4 +2,5 @@
 
 <ul>
   <li><a href="https://www.a-one.co.jp/product/search/detail.php?id=78265">A-Oneのシート</a>にQRコードを印刷する</li>
+  <li>makeでpage.htmlが生成される</li>
 </ul>
